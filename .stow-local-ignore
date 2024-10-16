@@ -20,5 +20,6 @@ _darcs
 
 ^/README.*
 ^/LICENSE.*
+^/UNLICENSE.*
 ^/COPYING
 
