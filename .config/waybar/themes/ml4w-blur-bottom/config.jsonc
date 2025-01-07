@@ -10,7 +10,7 @@
 //
 {
     // General Settings
-    "layer": "top",
+    "position": "bottom",
     "margin-top": 0,
     "margin-bottom": 0,
     "layer": "top",
@@ -20,8 +20,8 @@
 
     // Load Modules
     "include": [
-        "~/.config/ml4w/settings/waybar-quicklinks.json",
-        "~/.config/waybar/modules.json"
+        "~/.config/ml4w/settings/waybar-quicklinks.jsonc",
+        "~/.config/waybar/modules.jsonc"
     ],
 
     // Modules Left
