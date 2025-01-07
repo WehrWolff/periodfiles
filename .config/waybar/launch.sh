@@ -47,12 +47,12 @@ fi
 # ----------------------------------------------------- 
 # Loading the configuration
 # ----------------------------------------------------- 
-config_file="config"
+config_file="config.jsonc"
 style_file="style.css"
 
 # Standard files can be overwritten with an existing config-custom or style-custom.css
 if [ -f ~/.config/waybar/themes${arrThemes[0]}/config-custom ] ;then
-    config_file="config-custom"
+    config_file="config-custom.jsonc"
 fi
 if [ -f ~/.config/waybar/themes${arrThemes[1]}/style-custom.css ] ;then
     style_file="style-custom.css"
