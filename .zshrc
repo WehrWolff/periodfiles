@@ -108,6 +108,9 @@ fi
 
 export PATH="/usr/lib/ccache/bin/:$PATH"
 
+# Glitch image fix
+export GSK_RENDERER=ngl
+
 # Compilation flags
 # export ARCHFLAGS="-arch $(uname -m)"
 
@@ -117,6 +120,9 @@ export PATH="/usr/lib/ccache/bin/:$PATH"
 
 # Initialize zoxide and map it to cd
 eval "$(zoxide init --cmd cd zsh)"
+
+# Initialize thefuck and map it to fuck
+eval $(thefuck --alias fuck)
 
 # Set-up FZF key bindings (CTRL R for fuzzy history finder)
 source <(fzf --zsh)
