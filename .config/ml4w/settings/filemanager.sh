@@ -1,1 +1,1 @@
-nautilus
+GSK_RENDERER=gl nautilus

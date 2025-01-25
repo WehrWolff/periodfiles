@@ -51,7 +51,7 @@ config_file="config.jsonc"
 style_file="style.css"
 
 # Standard files can be overwritten with an existing config-custom or style-custom.css
-if [ -f ~/.config/waybar/themes${arrThemes[0]}/config-custom ] ;then
+if [ -f ~/.config/waybar/themes${arrThemes[0]}/config-custom.jsonc ] ;then
     config_file="config-custom.jsonc"
 fi
 if [ -f ~/.config/waybar/themes${arrThemes[1]}/style-custom.css ] ;then
